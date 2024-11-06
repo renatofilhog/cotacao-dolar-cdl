@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cotação do Dolar</title>
+        <meta name="description" content="Descubra quanto vale o dólar nesse momento">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href=".">
+                <h1>Cotação do Dólar</h1>
+            </a>
+        </header>
+
+        <div id="main">
+            <form action="#" spellcheck="false">
+                <div class="moeda left">
+                    <label for="usd">US$</label>
+                    <input type="text" id="usd" disabled>
+                </div>
+
+                <div class="moeda right">
+                    <label for="brl">R$</label>
+                    <input type="text" id="brl" disabled>
+                </div>
+
+                <div id="vars">
+                    <label for="cotacao">Cotação hoje</label>
+                    <input type="text" id="cotacao">
+                </div>
+            </form>
+        </div>
+        <script src="script.js" async></script>
+    </body>
+</html>
